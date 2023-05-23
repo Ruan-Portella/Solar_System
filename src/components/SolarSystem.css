@@ -1,0 +1,49 @@
+* {
+  background-image: url('../images/background.png');
+  margin: 0;
+  padding: 0;
+}
+
+.Planet-Cards {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.Planet-Name {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+.Planet-Card {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+}
+
+img:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  margin: 40px;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+  margin: 40px;
+  text-align: center;
+}
+
